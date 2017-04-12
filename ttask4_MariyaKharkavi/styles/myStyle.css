@@ -1,0 +1,257 @@
+
+body {
+    direction: rtl;
+    font-family: 'Heebo', sans-serif;
+    background-image:url('../Images/GreyTechnology.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background-image:url('../Images/o-COLLEGE-GENDER-GAP-facebook.jpg');
+    background-size:1000px;
+    background-repeat: no-repeat;
+    font-family: 'Heebo', sans-serif;
+}
+
+#title {
+    font-size: 50pt;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: darkblue;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    width: 960px;
+    height: 400px;
+}
+
+#big {
+    width: 1040px;
+    height: 180px;
+    background-color: cornflowerblue;
+    position: absolute;
+    margin-right: -40px;
+    margin-top: 200px;
+}
+
+#ribbon:before {
+    content: '';
+    position: absolute;
+    margin-right: 1000px;
+    margin-top: -40px;
+    border-bottom: solid 20px #70849f;
+    border-right: solid 20px #70849f;
+    border-top: solid 20px transparent;
+    border-left: solid 20px transparent;
+}
+
+#ribbon:after {
+    content: '';
+    position: absolute;
+    margin-top: -40px;
+    margin-right: 0px;
+    border-bottom: solid 20px #70849f;
+    border-left: solid 20px #70849f;
+    border-top: solid 20px transparent;
+    border-right: solid 20px transparent;
+}
+
+h2 {
+    position: absolute;
+    font-size: 30pt;
+    font-weight: bold;
+    color:  mediumblue;
+    font-family: 'Heebo', sans-serif;
+    width: 960px;
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+    top: 100px;
+}
+
+#comp {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 200px;
+    margin-top: 15px;
+    margin-right: 25px;
+    background-image:url('../Images/comp.PNG');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+}
+
+#text1 {
+    width: 160px;
+    height: 150px;
+    margin-top: 15px;
+    margin-right: 170px;
+    font-family: 'Heebo', sans-serif;
+    
+}
+#training {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 200px;
+    margin-top: 15px;
+    margin-right: 355px;
+    background-image:url('../Images/training.PNG');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+}
+
+#text2 {
+    width: 160px;
+    height: 150px;
+    margin-top: 15px;
+    margin-right: 160px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 12pt;
+    
+}
+
+
+
+#design{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 200px;
+    margin-top: 15px;
+    margin-right: 700px;
+    background-image:url('../Images/design.PNG');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+}
+
+#text3 {
+    width: 180px;
+    height: 150px;
+    margin-top: 15px;
+    margin-right: 160px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 12pt;
+}
+
+h3 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 18pt;
+    font-weight:bold;
+    margin-top:-10px;
+    
+}
+
+#text1 p, #text2 p, #text3 p{
+    font-family: 'Heebo', sans-serif;
+    font-size: 13pt;
+    margin-top:10px;
+}
+
+#bottom{
+    width:960px;
+    height:380px;
+    background-color:white;
+    margin-top:380px;
+}
+
+#brief{
+    font-family: 'Heebo', sans-serif;
+    font-size: 17pt;
+    color:mediumblue;
+    padding:15px;
+    padding-top:70px;
+    text-align:center;
+    padding-bottom:5px;   
+    
+}
+
+#brief span{
+    
+    font-family: 'Heebo', sans-serif;
+    font-size: 17pt;
+    color:mediumblue;
+    font-weight:bold;
+}
+
+
+
+#small{
+    width:870px;
+    height:200px;
+    background-color:#eeeeee;
+    margin-right:45px;
+    margin-top:10px;
+    
+    
+}
+
+h4{
+    font-family: 'Heebo', sans-serif;
+    font-size: 18pt;
+    color:darkblue;
+    font-weight:bold;
+    text-align:center;
+    padding:15px;
+    margin-bottom:15px;
+}
+
+form{
+    text-align:center;
+}
+
+label{
+     margin-top:10px;
+}
+
+input[type ='text'] , select {
+
+    margin-bottom:15px;
+}
+
+input[type ='submit']
+{
+ margin-top:10px;
+}
+
+form section{
+    display:block;
+}
+
+#check{
+    display:inline-block;
+            font-family: 'Heebo', sans-serif;
+    font-size: 11pt;
+}
+
+#Send{
+    display:inline-block;
+    margin-left:50px;
+    height:30px;
+    width:50px;
+}
+
+
+#bottomtext{
+    font-family: 'Heebo', sans-serif;
+    font-size: 14pt;
+    color:darkblue;
+    text-align:center;
+    margin-top:20px;
+}
+#bottomtext a{
+    font-family: 'Heebo', sans-serif;
+    font-size: 14pt;
+    color:darkblue;
+    text-align:center;
+    
+}
